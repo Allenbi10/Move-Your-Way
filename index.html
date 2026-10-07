@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Move Your Way is a playful collection of low-pressure ways to get moving." />
+  <title>Move Your Way — Find your kind of movement</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Move Your Way home">
+        <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span>move<br />your way</span>
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#moves">Pick a move</a>
+      </nav>
+      <a class="tiny-pill" href="#moves">No pressure <span aria-hidden="true">↘</span></a>
+    </header>
+
+    <main id="top">
+      <section class="start-here-section" aria-labelledby="start-here-title">
+        <div class="start-here">
+          <div class="start-here-label">
+            <span class="start-here-star" aria-hidden="true">✦</span>
+            <p id="start-here-title">Start here</p>
+            <span class="start-here-note">Pick a doorway</span>
+          </div>
+          <button class="start-door door-chill" data-filter="chill">
+            <span class="door-icon" aria-hidden="true">☁</span>
+            <span class="door-copy"><strong>Keep it easy</strong><small>Low-key moves for low-key days</small></span>
+            <span class="door-arrow" aria-hidden="true">↗</span>
+          </button>
+          <button class="start-door door-groove" data-filter="groove">
+            <span class="door-icon" aria-hidden="true">♫</span>
+            <span class="door-copy"><strong>Put on a song</strong><small>Move a little, no choreography needed</small></span>
+            <span class="door-arrow" aria-hidden="true">↗</span>
+          </button>
+          <button class="start-door door-outside" data-filter="outside">
+            <span class="door-icon" aria-hidden="true">↗</span>
+            <span class="door-copy"><strong>Step outside</strong><small>Fresh air, wheels, walks, and more</small></span>
+            <span class="door-arrow" aria-hidden="true">↗</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> Movement for real life</p>
+          <h1 id="hero-title">You don’t have to be a <em>sports person.</em></h1>
+          <p class="hero-text">Movement can be a little weird, a little wobbly, and completely yours. Pick something that sounds fun and give it a try.</p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#moves">Find my move <span>→</span></a>
+            <span class="micro-note">Zero tryouts. Zero scoreboards.</span>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Illustration of a person dancing with a yellow star">
+          <div class="scribble scribble-one">✦</div>
+          <div class="scribble scribble-two">✳</div>
+          <div class="art-card art-card-back"></div>
+          <div class="art-card art-card-front">
+            <div class="art-topline"><span>today’s tiny win</span><span>01</span></div>
+            <div class="person-illustration">
+              <div class="head"></div><div class="hair"></div><div class="body"></div>
+              <div class="arm arm-left"></div><div class="arm arm-right"></div>
+              <div class="leg leg-left"></div><div class="leg leg-right"></div>
+              <div class="shoe shoe-left"></div><div class="shoe shoe-right"></div>
+            </div>
+            <div class="art-caption"><strong>move like<br />nobody’s watching</strong><span>♪</span></div>
+          </div>
+          <div class="floating-sticker sticker-spark">✦</div>
+          <div class="floating-sticker sticker-smile">⌣</div>
+          <div class="hero-caption">There is no wrong<br />way to move.</div>
+        </div>
+      </section>
+
+      <section class="moves-section" id="moves" aria-labelledby="moves-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-dot coral"></span> Pick your own move</p>
+            <h2 id="moves-title">What sounds good<br /><em>right now?</em></h2>
+          </div>
+          <div class="heading-side"><p>Flip a card.<br />Keep what clicks.</p><span class="arrow-down">↓</span></div>
+        </div>
+
+        <div class="card-grid" id="card-grid"></div>
+        <div class="shuffle-wrap"><button class="button button-outline" id="shuffle-button"><span class="shuffle-icon">↻</span> Surprise me</button></div>
+      </section>
+
+      <section class="closing-section">
+        <div class="closing-star" aria-hidden="true">✦</div>
+        <a class="button button-dark" href="#moves">Pick another move <span>→</span></a>
+      </section>
+    </main>
+
+    <footer class="footer"><span>Move Your Way © 2025</span><span>Made for curious humans <span aria-hidden="true">♡</span></span></footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
